@@ -1,0 +1,13 @@
+{
+  "botToken": "123456789:your-telegram-bot-token",
+  "adminUsers": [123456789],
+  "groups": {
+    "-1001234567890": {
+      "repo": "your-org/your-repo",
+      "name": "your-repo-dev",
+      "allowedCommands": ["review", "fix", "do", "ask", "load", "close", "status", "pm", "verify"],
+      "syncPR": true,
+      "allowedUsers": [123456789, "teammate_username"]
+    }
+  }
+}

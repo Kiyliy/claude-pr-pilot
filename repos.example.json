@@ -1,0 +1,12 @@
+{
+  "your-org/your-repo": {
+    "dir": "/absolute/path/to/local/clone",
+    "baseBranch": "main",
+    "installationId": 12345678,
+    "autoFix": true,
+    "maxAutoFixRounds": 10,
+    "autoVerify": false,
+    "maxAutoVerifyRounds": 3,
+    "autoMerge": false
+  }
+}

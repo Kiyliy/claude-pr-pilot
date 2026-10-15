@@ -1,0 +1,24 @@
+{
+  "name": "auto-reviewer",
+  "version": "1.0.0",
+  "description": "GitHub Webhook listener that triggers Claude Code PR reviews",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsx main.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.3",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}

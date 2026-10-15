@@ -1,0 +1,15 @@
+node_modules/
+logs/
+.worktrees/
+data/
+dist/
+.claude-prompt-*.txt
+.venv/
+**/__pycache__/**
+# secrets & local config (copy the *.example files)
+.env
+repos.json
+telegram.json
+*.pem
+tests/e2e/.env.e2e
+*.session
